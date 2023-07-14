@@ -1,4 +1,4 @@
-FROM docker.io/nginx:1.11-alpine
+FROM quay.io/garycncf/nginx:1.11-alpine
 
 # Add 2048 stuff into Nginx server
 COPY . /usr/share/nginx/html
