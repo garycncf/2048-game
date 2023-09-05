@@ -1,4 +1,5 @@
-FROM quay.io/garycncf/nginx:1.11-alpine
+#FROM quay.io/garycncf/nginx:1.11-alpine
+FROM registry.redhat.io/ubi8/nginx-120:1-117.1692780863
 
 # Add 2048 stuff into Nginx server
 COPY . /usr/share/nginx/html
